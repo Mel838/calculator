@@ -1,0 +1,86 @@
+<!DOCTYPE html>  
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400;500&display=swap">
+            <title>Calculator</title>
+        </head>
+        <body>
+            <div class="calculator"> 
+                <div class="content">
+                    <div class="header">
+                        <p>5x700</p>
+                        <h1>3500</h1>
+                    </div>
+                    <div class="middle">
+                        <div class="middle-left">
+                           <img src="images/clock.png">
+                        </div>
+                        <div class="middle-right">
+                            <img src="images/backspace.png">
+                        </div>
+                    </div>
+                    <div class="calculator-container">
+                        <div class="scientific-pad">
+                          <div class="symbol-row">
+                            <button class="symbol">√</button>
+                            <button class="symbol">π</button>
+                            <button class="symbol">^</button>
+                            <button class="symbol">!</button>
+                          </div>
+                          <input type="checkbox" id="expand-toggle">
+                          <div class="hidden-rows">
+                            <div class="symbol-row">
+                              <button class="symbol">DEG</button>
+                              <button class="symbol">sin</button>
+                              <button class="symbol">cos</button>
+                              <button class="symbol">tan</button>
+                            </div>
+                            <div class="symbol-row">
+                              <button class="symbol">INV</button>
+                              <button class="symbol">e</button>
+                              <button class="symbol">ln</button>
+                              <button class="symbol">log</button>
+                            </div>
+                          </div>
+                        </div>
+                        <label for="expand-toggle" class="toggle-label"></label>
+                      </div>
+                    <div class="numbers">
+                        <div class="input">
+                            <button class="ac-btn">AC</button>
+                            <button>()</button>
+                            <button>%</button>
+                            <button class="op-btn">÷</button>
+                        </div>
+                        <div class="input">
+                            <button>7</button>
+                            <button>8</button>
+                            <button>9</button>
+                            <button class="op-btn">x</button>
+                        </div>
+                        <div class="input">
+                            <button>4</button>
+                            <button>5</button>
+                            <button>6</button>
+                            <button class="op-btn">-</button>
+                        </div>
+                        <div class="input">
+                            <button>1</button>
+                            <button>2</button>
+                            <button>3</button>
+                            <button class="op-btn">+</button>
+                        </div>
+                        <div class="input">
+                            <button>+/-</button>
+                            <button>0</button>
+                            <button>.</button>
+                            <button class="equals-btn">=</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>
